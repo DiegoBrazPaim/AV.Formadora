@@ -1,20 +1,29 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Gastos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Total de Gastos</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <h2>{{ totalDespesas | currency:'BRL' }}</h2>
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-button expand="block" routerLink="/add-gastos">Adicionar Gasto</ion-button>
+  <ion-button expand="block" routerLink="/gastos-list">Ver Gastos</ion-button>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Resumo Financeiro</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <h3>Total de Despesas: {{ totalDespesas | currency:'BRL' }}</h3>
+      <h3>Total de Receitas: {{ totalReceitas | currency:'BRL' }}</h3>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

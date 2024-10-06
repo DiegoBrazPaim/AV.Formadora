@@ -1,0 +1,36 @@
+ion-header {
+    background-color: #007bff; // Cor do cabeçalho
+    color: white; // Cor do texto
+  }
+  
+  ion-toolbar {
+    --background: #007bff; // Cor de fundo do toolbar
+    --color: white; // Cor do texto
+  }
+  
+  ion-card {
+    margin: 20px; // Margem em torno do cartão
+    border-radius: 10px; // Bordas arredondadas
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Sombra para profundidade
+  }
+  
+  ion-card-title {
+    font-size: 1.5em; // Tamanho da fonte do título
+    color: #007bff; // Cor do título do cartão
+  }
+  
+  ion-card-content {
+    padding: 20px; // Padding para espaçamento interno
+  }
+  
+  ion-item {
+    margin-bottom: 15px; // Margem inferior entre os itens
+  }
+  
+  ion-button.action-button {
+    margin: 20px; // Margem em torno do botão "Salvar"
+    --background: #007bff; // Cor de fundo do botão
+    --color: white; // Cor do texto do botão
+    --border-radius: 5px; // Bordas arredondadas
+  }
+  

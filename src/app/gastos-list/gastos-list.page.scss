@@ -1,0 +1,47 @@
+ion-header {
+    background-color: #007bff; // Cor do cabeçalho
+    color: white; // Cor do texto
+  }
+  
+  ion-toolbar {
+    --background: #007bff; // Cor de fundo do toolbar
+    --color: white; // Cor do texto
+  }
+  
+  ion-card {
+    margin: 20px; // Margem em torno do cartão
+    border-radius: 10px; // Bordas arredondadas
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); // Sombra para profundidade
+  }
+  
+  ion-card-title {
+    font-size: 1.5em; // Tamanho da fonte do título
+    color: #007bff; // Cor do título do cartão
+  }
+  
+  ion-list {
+    margin: 10px; // Margem em torno da lista
+  }
+  
+  ion-item {
+    border-bottom: 1px solid #ccc; // Linha separando os itens
+    padding: 10px; // Padding em torno do conteúdo do item
+  }
+  
+  ion-label {
+    flex: 1; // Faz com que o label ocupe o espaço disponível
+  }
+  
+  ion-button {
+    margin-left: 10px; // Margem à esquerda do botão de remover
+    --border-radius: 5px; // Bordas arredondadas do botão
+  }
+  
+  h2 {
+    color: #333; // Cor do texto do título do gasto
+  }
+  
+  p {
+    color: #666; // Cor do texto das informações adicionais
+  }
+  
